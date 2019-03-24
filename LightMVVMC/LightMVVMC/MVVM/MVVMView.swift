@@ -8,9 +8,9 @@
 
 import UIKit
 
-protocol ViewModel: class { }
+protocol ViewModel: AnyObject { }
 
-protocol MVVMView: class {
+protocol MVVMView: AnyObject {
     associatedtype ViewModelType: ViewModel
 
     var viewModel: ViewModelType! { get set }
