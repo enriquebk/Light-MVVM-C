@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:LightMVVMC/../Example/Example.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:LightMVVMC/LightMVVMC.xcodeproj">
    </FileRef>
 </Workspace>
