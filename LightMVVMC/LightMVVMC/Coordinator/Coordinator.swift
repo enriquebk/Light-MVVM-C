@@ -13,7 +13,7 @@ public protocol Presentable { }
 
 extension UIViewController: Presentable {}
 
-/// `Coordinator` is an instance that can navigates to diferent routes.
+/// `Coordinator` is an instance that can navigate to diferent routes.
 public class Coordinator<CoordinatorRoute: Route> {
     
     /// Coordinator's starting point.

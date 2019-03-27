@@ -9,6 +9,6 @@
 ///
 public protocol Route {
 
-    /// Returns the `Transition` instance needed to execute to reach the route.
+    /// Returns the `Transition` instance needed to be executed to reach the route.
     func getTransition() -> Transition
 }
