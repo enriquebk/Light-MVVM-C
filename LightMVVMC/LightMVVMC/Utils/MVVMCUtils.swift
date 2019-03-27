@@ -8,8 +8,13 @@
 
 import UIKit
 
-extension MVVMView where Self: UIViewController, Self.ViewModelType: CoordinatorManager {
+public extension MVVMView where Self: UIViewController, Self.ViewModelType: CoordinatorManager {
     
+    /**
+     Creates a `UIViewController` instance binded to a given `ViewModel`. The ViewModel's `Coordinator` instance is also instantiated.
+     
+     - parameter viewModel: The `ViewModel` that will be binded to the `UIViewController` instance.
+     */
     static func instantiate(with viewModel: Self.ViewModelType) -> Self {
         
         let viewController = Self()
