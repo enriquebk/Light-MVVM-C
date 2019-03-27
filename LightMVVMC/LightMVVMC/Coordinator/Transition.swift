@@ -8,19 +8,32 @@
 
 import UIKit
 
+/// Implement the `Transition` protocol when you want to create your own transitions.
 public protocol Transition {
     
+    /**
+     Executes all the code needed to present a certain `Presentable` instance.
+     - parameter from: `Presentable` instance that will be presented when executing the transition.
+     */
     func execute(from: Presentable)
 }
 
+/// `NavigationTransition` its a `Transition` that implements all the `UINavigationController` navigations (push, present, pop, etc).
 public class NavigationTransition: Transition {
     
+    ///
     public enum NavigationType {
+        ///
         case push(UIViewController)
+        ///
         case present(UIViewController)
+        ///
         case pop
+        ///
         case popToRoot
+        ///
         case dismiss
+        ///
         case noTransition
     }
     
@@ -30,6 +43,7 @@ public class NavigationTransition: Transition {
         systemTransition = transition
     }
     
+    /// :nodoc:
     public func execute(from presentable: Presentable) {
         
         guard let sourceVC = presentable as? UIViewController else {
