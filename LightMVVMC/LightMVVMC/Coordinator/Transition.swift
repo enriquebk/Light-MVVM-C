@@ -39,7 +39,8 @@ public class NavigationTransition: Transition {
     
     private var systemTransition: NavigationType
     
-    init(_ transition: NavigationType) {
+    /// Initialize the `NavigationTransition` with a `NavigationType`
+    public init(_ transition: NavigationType) {
         systemTransition = transition
     }
     
