@@ -8,6 +8,15 @@
 
 Light MVVM-C is a lightweight implementation of the MVVM + Coordinator architectural pattern.
 
+# Installation
+
+LightMVVMC is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'LightMVVMC'
+```
+
 ## Author
 
 Enrique Bermúdez, me@ebermudez.com
