@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD4EBA7B224D446F00EABF42 /* LightMVVMC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE9838E222C57E200C6E683 /* LightMVVMC.framework */; };
 		CDC79BF9224C02700057FC78 /* BindableValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC79BF7224C02700057FC78 /* BindableValue.swift */; };
 		CDE9839F222C57E200C6E683 /* LightMVVMC.h in Headers */ = {isa = PBXBuildFile; fileRef = CDE98391222C57E200C6E683 /* LightMVVMC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDE983B0222C580D00C6E683 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE983AA222C580D00C6E683 /* Transition.swift */; };
@@ -16,7 +17,19 @@
 		CDE983B4222C580D00C6E683 /* MVVMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE983AF222C580D00C6E683 /* MVVMView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		CD4EBA7C224D446F00EABF42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDE98385222C57E200C6E683 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDE9838D222C57E200C6E683;
+			remoteInfo = LightMVVMC;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		CD4EBA76224D446F00EABF42 /* LightMVVMCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightMVVMCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4EBA7A224D446F00EABF42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDC79BF7224C02700057FC78 /* BindableValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindableValue.swift; sourceTree = "<group>"; };
 		CDE9838E222C57E200C6E683 /* LightMVVMC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LightMVVMC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE98391222C57E200C6E683 /* LightMVVMC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightMVVMC.h; sourceTree = "<group>"; };
@@ -29,6 +42,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CD4EBA73224D446F00EABF42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4EBA7B224D446F00EABF42 /* LightMVVMC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CDE9838B222C57E200C6E683 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -39,10 +60,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD4EBA77224D446F00EABF42 /* LightMVVMCTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD4EBA7A224D446F00EABF42 /* Info.plist */,
+			);
+			path = LightMVVMCTests;
+			sourceTree = "<group>";
+		};
 		CDE98384222C57E200C6E683 = {
 			isa = PBXGroup;
 			children = (
 				CDE98390222C57E200C6E683 /* LightMVVMC */,
+				CD4EBA77224D446F00EABF42 /* LightMVVMCTests */,
 				CDE9838F222C57E200C6E683 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				CDE9838E222C57E200C6E683 /* LightMVVMC.framework */,
+				CD4EBA76224D446F00EABF42 /* LightMVVMCTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,6 +139,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		CD4EBA75224D446F00EABF42 /* LightMVVMCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4EBA80224D446F00EABF42 /* Build configuration list for PBXNativeTarget "LightMVVMCTests" */;
+			buildPhases = (
+				CD4EBA72224D446F00EABF42 /* Sources */,
+				CD4EBA73224D446F00EABF42 /* Frameworks */,
+				CD4EBA74224D446F00EABF42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD4EBA7D224D446F00EABF42 /* PBXTargetDependency */,
+			);
+			name = LightMVVMCTests;
+			productName = LightMVVMCTests;
+			productReference = CD4EBA76224D446F00EABF42 /* LightMVVMCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		CDE9838D222C57E200C6E683 /* LightMVVMC */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDE983A2222C57E200C6E683 /* Build configuration list for PBXNativeTarget "LightMVVMC" */;
@@ -136,6 +185,9 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Enrique Bermúdez";
 				TargetAttributes = {
+					CD4EBA75224D446F00EABF42 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					CDE9838D222C57E200C6E683 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -154,11 +206,19 @@
 			projectRoot = "";
 			targets = (
 				CDE9838D222C57E200C6E683 /* LightMVVMC */,
+				CD4EBA75224D446F00EABF42 /* LightMVVMCTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CD4EBA74224D446F00EABF42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CDE9838C222C57E200C6E683 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -169,6 +229,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CD4EBA72224D446F00EABF42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CDE9838A222C57E200C6E683 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -184,7 +251,51 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		CD4EBA7D224D446F00EABF42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDE9838D222C57E200C6E683 /* LightMVVMC */;
+			targetProxy = CD4EBA7C224D446F00EABF42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		CD4EBA7E224D446F00EABF42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB2B85C3L8;
+				INFOPLIST_FILE = LightMVVMCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LightMVVMCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD4EBA7F224D446F00EABF42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB2B85C3L8;
+				INFOPLIST_FILE = LightMVVMCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LightMVVMCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		CDE983A0222C57E200C6E683 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -362,6 +473,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CD4EBA80224D446F00EABF42 /* Build configuration list for PBXNativeTarget "LightMVVMCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4EBA7E224D446F00EABF42 /* Debug */,
+				CD4EBA7F224D446F00EABF42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CDE98388222C57E200C6E683 /* Build configuration list for PBXProject "LightMVVMC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
