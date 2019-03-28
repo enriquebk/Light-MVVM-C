@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		CD4EBA7B224D446F00EABF42 /* LightMVVMC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE9838E222C57E200C6E683 /* LightMVVMC.framework */; };
+		CD4EBAAA224D550500EABF42 /* CoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4EBA9C224D550400EABF42 /* CoordinatorTests.swift */; };
+		CD4EBAAB224D550500EABF42 /* UIViewControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4EBA9E224D550400EABF42 /* UIViewControllerMock.swift */; };
+		CD4EBAAC224D550500EABF42 /* FakeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4EBA9F224D550400EABF42 /* FakeViewModel.swift */; };
+		CD4EBAAD224D550500EABF42 /* TransitionMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4EBAA0224D550400EABF42 /* TransitionMock.swift */; };
+		CD4EBAAE224D550500EABF42 /* MVVMViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4EBAA1224D550400EABF42 /* MVVMViewMock.swift */; };
+		CD4EBAAF224D550500EABF42 /* FakeViewModelCoordinatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4EBAA2224D550400EABF42 /* FakeViewModelCoordinatorManager.swift */; };
+		CD4EBAB0224D550500EABF42 /* UINavigationControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4EBAA3224D550400EABF42 /* UINavigationControllerMock.swift */; };
+		CD4EBAB1224D550500EABF42 /* RouteMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4EBAA4224D550400EABF42 /* RouteMock.swift */; };
+		CD4EBAB2224D550500EABF42 /* BindableValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4EBAA5224D550400EABF42 /* BindableValueTests.swift */; };
+		CD4EBAB3224D550500EABF42 /* NavigationTransitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4EBAA6224D550400EABF42 /* NavigationTransitionTests.swift */; };
+		CD4EBAB4224D550500EABF42 /* MVVMCUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4EBAA7224D550400EABF42 /* MVVMCUtilsTests.swift */; };
+		CD4EBAB5224D550500EABF42 /* MVVMViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4EBAA8224D550400EABF42 /* MVVMViewTests.swift */; };
+		CD4EBAB6224D550500EABF42 /* OptionalBindableValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4EBAA9224D550400EABF42 /* OptionalBindableValue.swift */; };
 		CDC79BF9224C02700057FC78 /* BindableValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC79BF7224C02700057FC78 /* BindableValue.swift */; };
 		CDE9839F222C57E200C6E683 /* LightMVVMC.h in Headers */ = {isa = PBXBuildFile; fileRef = CDE98391222C57E200C6E683 /* LightMVVMC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDE983B0222C580D00C6E683 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE983AA222C580D00C6E683 /* Transition.swift */; };
@@ -30,6 +43,19 @@
 /* Begin PBXFileReference section */
 		CD4EBA76224D446F00EABF42 /* LightMVVMCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightMVVMCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD4EBA7A224D446F00EABF42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD4EBA9C224D550400EABF42 /* CoordinatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorTests.swift; sourceTree = "<group>"; };
+		CD4EBA9E224D550400EABF42 /* UIViewControllerMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerMock.swift; sourceTree = "<group>"; };
+		CD4EBA9F224D550400EABF42 /* FakeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeViewModel.swift; sourceTree = "<group>"; };
+		CD4EBAA0224D550400EABF42 /* TransitionMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionMock.swift; sourceTree = "<group>"; };
+		CD4EBAA1224D550400EABF42 /* MVVMViewMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMViewMock.swift; sourceTree = "<group>"; };
+		CD4EBAA2224D550400EABF42 /* FakeViewModelCoordinatorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeViewModelCoordinatorManager.swift; sourceTree = "<group>"; };
+		CD4EBAA3224D550400EABF42 /* UINavigationControllerMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationControllerMock.swift; sourceTree = "<group>"; };
+		CD4EBAA4224D550400EABF42 /* RouteMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteMock.swift; sourceTree = "<group>"; };
+		CD4EBAA5224D550400EABF42 /* BindableValueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindableValueTests.swift; sourceTree = "<group>"; };
+		CD4EBAA6224D550400EABF42 /* NavigationTransitionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationTransitionTests.swift; sourceTree = "<group>"; };
+		CD4EBAA7224D550400EABF42 /* MVVMCUtilsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMCUtilsTests.swift; sourceTree = "<group>"; };
+		CD4EBAA8224D550400EABF42 /* MVVMViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMViewTests.swift; sourceTree = "<group>"; };
+		CD4EBAA9224D550400EABF42 /* OptionalBindableValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalBindableValue.swift; sourceTree = "<group>"; };
 		CDC79BF7224C02700057FC78 /* BindableValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindableValue.swift; sourceTree = "<group>"; };
 		CDE9838E222C57E200C6E683 /* LightMVVMC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LightMVVMC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE98391222C57E200C6E683 /* LightMVVMC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightMVVMC.h; sourceTree = "<group>"; };
@@ -63,9 +89,30 @@
 		CD4EBA77224D446F00EABF42 /* LightMVVMCTests */ = {
 			isa = PBXGroup;
 			children = (
+				CD4EBAA5224D550400EABF42 /* BindableValueTests.swift */,
+				CD4EBA9C224D550400EABF42 /* CoordinatorTests.swift */,
+				CD4EBAA7224D550400EABF42 /* MVVMCUtilsTests.swift */,
+				CD4EBAA8224D550400EABF42 /* MVVMViewTests.swift */,
+				CD4EBAA6224D550400EABF42 /* NavigationTransitionTests.swift */,
+				CD4EBAA9224D550400EABF42 /* OptionalBindableValue.swift */,
+				CD4EBA9D224D550400EABF42 /* TestDoubles */,
 				CD4EBA7A224D446F00EABF42 /* Info.plist */,
 			);
 			path = LightMVVMCTests;
+			sourceTree = "<group>";
+		};
+		CD4EBA9D224D550400EABF42 /* TestDoubles */ = {
+			isa = PBXGroup;
+			children = (
+				CD4EBA9E224D550400EABF42 /* UIViewControllerMock.swift */,
+				CD4EBA9F224D550400EABF42 /* FakeViewModel.swift */,
+				CD4EBAA0224D550400EABF42 /* TransitionMock.swift */,
+				CD4EBAA1224D550400EABF42 /* MVVMViewMock.swift */,
+				CD4EBAA2224D550400EABF42 /* FakeViewModelCoordinatorManager.swift */,
+				CD4EBAA3224D550400EABF42 /* UINavigationControllerMock.swift */,
+				CD4EBAA4224D550400EABF42 /* RouteMock.swift */,
+			);
+			path = TestDoubles;
 			sourceTree = "<group>";
 		};
 		CDE98384222C57E200C6E683 = {
@@ -187,6 +234,7 @@
 				TargetAttributes = {
 					CD4EBA75224D446F00EABF42 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					CDE9838D222C57E200C6E683 = {
 						CreatedOnToolsVersion = 10.1;
@@ -233,6 +281,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD4EBAAD224D550500EABF42 /* TransitionMock.swift in Sources */,
+				CD4EBAAE224D550500EABF42 /* MVVMViewMock.swift in Sources */,
+				CD4EBAAB224D550500EABF42 /* UIViewControllerMock.swift in Sources */,
+				CD4EBAB1224D550500EABF42 /* RouteMock.swift in Sources */,
+				CD4EBAB4224D550500EABF42 /* MVVMCUtilsTests.swift in Sources */,
+				CD4EBAAC224D550500EABF42 /* FakeViewModel.swift in Sources */,
+				CD4EBAB2224D550500EABF42 /* BindableValueTests.swift in Sources */,
+				CD4EBAAF224D550500EABF42 /* FakeViewModelCoordinatorManager.swift in Sources */,
+				CD4EBAAA224D550500EABF42 /* CoordinatorTests.swift in Sources */,
+				CD4EBAB3224D550500EABF42 /* NavigationTransitionTests.swift in Sources */,
+				CD4EBAB5224D550500EABF42 /* MVVMViewTests.swift in Sources */,
+				CD4EBAB0224D550500EABF42 /* UINavigationControllerMock.swift in Sources */,
+				CD4EBAB6224D550500EABF42 /* OptionalBindableValue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +324,7 @@
 		CD4EBA7E224D446F00EABF42 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VB2B85C3L8;
 				INFOPLIST_FILE = LightMVVMCTests/Info.plist;
@@ -273,6 +335,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.LightMVVMCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -281,6 +344,7 @@
 		CD4EBA7F224D446F00EABF42 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VB2B85C3L8;
 				INFOPLIST_FILE = LightMVVMCTests/Info.plist;
