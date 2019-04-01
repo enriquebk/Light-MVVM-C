@@ -238,6 +238,7 @@
 					};
 					CDE9838D222C57E200C6E683 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -247,6 +248,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CDE98384222C57E200C6E683;
 			productRefGroup = CDE9838F222C57E200C6E683 /* Products */;
@@ -503,7 +505,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ebermudez.LightMVVMC;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -529,7 +531,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ebermudez.LightMVVMC;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
