@@ -30,7 +30,7 @@ class ContactDetailsViewController: UITableViewController, MVVMView {
         }
         
         self.exitButton.addTarget(self.viewModel,
-                                  action: #selector(ContactDetailsViewModel.dissmiss),
+                                  action: #selector(ContactDetailsViewModel.dismiss),
                                   for: .touchUpInside)
     }
 
@@ -43,7 +43,7 @@ class ContactDetailsViewController: UITableViewController, MVVMView {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = UITableViewCell.init(style: .value1, reuseIdentifier: String(describing: UITableViewCell.self))
+        let cell = UITableViewCell(style: .value1, reuseIdentifier: String(describing: UITableViewCell.self))
         
         let property = self.viewModel.details[indexPath.row]
         

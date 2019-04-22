@@ -35,7 +35,7 @@ class ContactsViewController: UITableViewController, MVVMView {
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = UITableViewCell.init(style: .default, reuseIdentifier: String(describing: UITableViewCell.self))
+        let cell = UITableViewCell(style: .default, reuseIdentifier: String(describing: UITableViewCell.self))
         
         if let user = self.viewModel.contact(at: indexPath.row){
             cell.textLabel?.text = user.name

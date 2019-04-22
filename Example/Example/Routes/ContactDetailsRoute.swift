@@ -10,12 +10,12 @@ import LightMVVMC
 
 enum ContactDetailsRoute: Route {
 
-    case dissmis
+    case contactList
         
     func getTransition() -> Transition {
             
         switch self {
-        case .dissmis:
+        case .contactList:
             return NavigationTransition(.dismiss)
         }
     }

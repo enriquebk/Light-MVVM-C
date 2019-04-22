@@ -10,12 +10,12 @@ import LightMVVMC
 
 enum ContactsRoute : Route {
     
-    case userDetails(Contact)
+    case contactDetails(Contact)
     
     func getTransition() -> Transition {
         
         switch self {
-        case .userDetails(let user):
+        case .contactDetails(let user):
             
             let userDetailsViewModel = ContactDetailsViewModel(with: user)
             let userDetailsViewController = ContactDetailsViewController.instantiate(with: userDetailsViewModel)

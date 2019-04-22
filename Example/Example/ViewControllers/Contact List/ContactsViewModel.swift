@@ -33,7 +33,7 @@ class ContactsViewModel: ViewModel, CoordinatorManager {
             return
         }
         
-        self.coordinator.navigate(to: .userDetails(contacts.value[index]))
+        self.coordinator.navigate(to: .contactDetails(contacts.value[index]))
     }
     
 }

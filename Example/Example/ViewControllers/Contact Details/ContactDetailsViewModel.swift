@@ -30,8 +30,8 @@ class ContactDetailsViewModel: ViewModel, CoordinatorManager {
         self.contact = BindableValue(contact)
     }
     
-    @objc func dissmiss(){
-        self.coordinator.navigate(to: .dissmis)
+    @objc func dismiss(){
+        self.coordinator.navigate(to: .contactList)
     }
     
 }
