@@ -8,10 +8,10 @@
 
 import UIKit
 
-/// MVVM's ViewModel instance.
+/// MVVM's ViewModel Object.
 public protocol ViewModel: AnyObject { }
 
-/// MVVM's View instance.
+/// MVVM's View Object.
 public protocol MVVMView: AnyObject {
     
     /// :nodoc:

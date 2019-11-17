@@ -11,7 +11,8 @@ import UIKit
 public extension MVVMView where Self: UIViewController, Self.ViewModelType: CoordinatorManager {
     
     /**
-     Creates a `UIViewController` instance binded to a given `ViewModel`. The ViewModel's `Coordinator` instance is also instantiated.
+     Creates a `UIViewController` instance binded to a given `ViewModel`. The ViewModel's
+     `Coordinator` is also instantiated.
      
      - parameter viewModel: The `ViewModel` that will be binded to the `UIViewController` instance.
      */

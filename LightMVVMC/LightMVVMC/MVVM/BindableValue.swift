@@ -8,8 +8,8 @@
 
 import UIKit
 
-/// `BindableValue` is an instance that holds a value and will a listener every time this value changes.
-public class BindableValue<T>: NSObject {
+/// `BindableValue` is an Object that holds a `T` value and has a listener closure. Whenever this value changes the `BindableValue` will notify this action by calling the listener closure.
+public class BindableValue<T> {
 
     ///
     public typealias Listener = (T) -> Void
@@ -22,7 +22,7 @@ public class BindableValue<T>: NSObject {
         }
     }
     
-    /// Initialize a `BindableValue` with an initial value.
+    /// Initializes a `BindableValue` with an initial value.
     public init(_ value:T) {
         self.value = value
     }
@@ -35,7 +35,7 @@ public class BindableValue<T>: NSObject {
 }
 
 /// `OptionalBindableValue` behaves the same as the `BindableValue` but it also accepts `nil` values.
-public class OptionalBindableValue<T>: NSObject {
+public class OptionalBindableValue<T> {
     
     ///
     public typealias Listener = (T?) -> Void

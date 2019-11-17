@@ -12,13 +12,14 @@ import UIKit
 public protocol Transition {
     
     /**
-     Executes all the code needed to present a certain `Presentable` instance.
-     - parameter from: `Presentable` instance that will be presented when executing the transition.
+     Executes all the code needed to present a `Presentable` object.
+     - parameter from: `Presentable` instance that will be presented.
      */
     func execute(from: Presentable)
 }
 
-/// `NavigationTransition` its a `Transition` that implements all the `UINavigationController` navigations (push, present, pop, etc).
+/// `NavigationTransition` its a `Transition` implementation that executes all the
+/// `UINavigationController` navigations (push, present, pop, etc).
 public class NavigationTransition: Transition {
     
     ///
