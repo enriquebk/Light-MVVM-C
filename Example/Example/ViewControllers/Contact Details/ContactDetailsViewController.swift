@@ -19,8 +19,8 @@ class ContactDetailsViewController: UITableViewController, MVVMView {
         super.viewDidLoad()
         
         self.title = "Details"
-        self.exitButton.setTitle("OK", for: .normal)
-        self.navigationItem.setRightBarButton(UIBarButtonItem(customView: self.exitButton),
+        self.exitButton.setTitle("Back", for: .normal)
+        self.navigationItem.setLeftBarButton(UIBarButtonItem(customView: self.exitButton),
                                               animated: false)
     }
     

@@ -9,9 +9,9 @@
 import Foundation
 
 struct Contact {
-    let name:String!
-    let phone:String!
-    let address:String!
+    let name:String
+    let phone:String
+    let address:String
 }
 
 extension Contact {
